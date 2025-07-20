@@ -72,3 +72,12 @@ npx create-next-app@latest alx-project-0x01 --typescript --eslint --tailwind --i
   - `pages/posts.tsx`
   - `pages/users.tsx`
 - Styled the header and button using TailwindCSS.
+
+### ⭕Task 2 - Implement Posts Card Components
+
+- Added PostProps interface to define the shape of post data
+- Created a reusable `PostCard` React component that accepts `PostProps` and displays post title, body, user ID, and post ID.
+- Applied Tailwind CSS for styling with hover effects and responsive layout.
+- Fetched post data from `https://jsonplaceholder.typicode.com/posts` using `getStaticProps`.
+- Rendered a grid of `PostCard` components using fetched data.
+- Added header and "Add Post" button.
