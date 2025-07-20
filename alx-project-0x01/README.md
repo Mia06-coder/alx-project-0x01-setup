@@ -61,3 +61,14 @@ npx create-next-app@latest alx-project-0x01 --typescript --eslint --tailwind --i
   - `Footer.tsx`
   - `pages/posts/index.tsx`
   - `pages/users/index.tsx`
+
+### ⭕Task 1 - Navigation Between Pages
+
+- Replaced the content of `components/layout/Header.tsx` with a semantic navigation bar.
+- Created a responsive header with links to `/posts` and `/users`.
+- Used `<Link />` from Next.js for client-side routing.
+- Imported the `Header` component into:
+  - `pages/index.tsx`
+  - `pages/posts.tsx`
+  - `pages/users.tsx`
+- Styled the header and button using TailwindCSS.
