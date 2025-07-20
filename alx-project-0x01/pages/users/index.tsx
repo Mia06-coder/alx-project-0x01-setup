@@ -14,7 +14,7 @@ const Users: React.FC<UsersPageProps> = ({ posts }) => {
       <main className="p-4">
         <h1 className="text-2xl font-semibold mb-4">Users List</h1>
         <div className="grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-          {posts?.map(
+          {posts.map(
             (
               {
                 id,

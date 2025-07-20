@@ -1,6 +1,7 @@
 import { UserProps } from "@/interfaces";
 
 const UserCard: React.FC<UserProps> = ({
+  id,
   name,
   username,
   email,
@@ -13,6 +14,9 @@ const UserCard: React.FC<UserProps> = ({
     <div className="max-w-md mx-auto p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow">
       <h2 className="text-2xl font-semibold mb-2">{name}</h2>
       <p className="text-gray-700 italic mb-1">@{username}</p>
+      <p className="mb-1">
+        <strong>ID:</strong> {id}
+      </p>
       <p className="mb-1">
         <strong>Email:</strong>{" "}
         <a href={`mailto:${email}`} className="text-blue-600 hover:underline">

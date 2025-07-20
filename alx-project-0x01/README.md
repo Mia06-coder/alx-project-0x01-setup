@@ -88,3 +88,15 @@ npx create-next-app@latest alx-project-0x01 --typescript --eslint --tailwind --i
 - Created a `UserCard` component in `components/common/UserCard.tsx` that accepts props and displays user details creatively.
 - Fetched user data from `https://jsonplaceholder.typicode.com/users` inside `pages/users/index.tsx` using `getStaticProps`.
 - Rendered the list of users on the Users page using the `UserCard` component.
+
+### ⭕Task 4 - Add Modal Form to Create Posts
+
+- Created two new interfaces in `interfaces/index.ts`:
+  - `PostData`: holds the shape of a new post.
+  - `PostModalProps`: defines the modal's function props.
+- Created a new file `components/common/PostModal.tsx`:
+  - Includes form input for `userId`, `title`, and `body`.
+  - Calls `onSubmit` with new post data and closes modal.
+- Updated `pages/posts/index.tsx`:
+  - Adds state logic to toggle modal visibility and captures new post.
+  - Renders the `PostModal` when `isModalOpen` is true.
