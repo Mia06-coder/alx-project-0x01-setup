@@ -81,3 +81,10 @@ npx create-next-app@latest alx-project-0x01 --typescript --eslint --tailwind --i
 - Fetched post data from `https://jsonplaceholder.typicode.com/posts` using `getStaticProps`.
 - Rendered a grid of `PostCard` components using fetched data.
 - Added header and "Add Post" button.
+
+### ⭕Task 3 - Implement Users Card Components
+
+- Defined a `UserProps` interface in `interfaces/index.ts` matching the sample user data structure.
+- Created a `UserCard` component in `components/common/UserCard.tsx` that accepts props and displays user details creatively.
+- Fetched user data from `https://jsonplaceholder.typicode.com/users` inside `pages/users/index.tsx` using `getStaticProps`.
+- Rendered the list of users on the Users page using the `UserCard` component.
