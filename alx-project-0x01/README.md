@@ -100,3 +100,8 @@ npx create-next-app@latest alx-project-0x01 --typescript --eslint --tailwind --i
 - Updated `pages/posts/index.tsx`:
   - Adds state logic to toggle modal visibility and captures new post.
   - Renders the `PostModal` when `isModalOpen` is true.
+
+### ⭕Task 5 - Implement User Modal
+
+- Modal UI pops up when "Add User" button is clicked
+- Captures user data including address, geo location, and company details
